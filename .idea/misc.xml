@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_breakfast.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.34791666666666665" />
         <entry key="app/src/main/res/layout/fragment_seafood.xml" value="0.34791666666666665" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
       </map>
     </option>
   </component>
