@@ -4,6 +4,8 @@
     <string name="txt_vegetarian">Vegetarian</string>
     <string name="txt_desert">Desert</string>
     <string name="txt_Seafood">Seafood</string>
+    <string name="content_image_banner_food">Image Banner Food</string>
+    <string name="txt_garlic_butter_shrimp">Garlic Butter Shrimp</string>
 
 
 </resources>
