@@ -5,6 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
+import com.example.recepiecatalogue.adapter.RecipeAdapter
+import com.example.recepiecatalogue.data.DataRecipe
+import com.example.recepiecatalogue.data.Recipe
 import com.example.recepiecatalogue.databinding.FragmentVegetarianBinding
 
 class VegetarianFragment : Fragment() {
@@ -21,6 +25,11 @@ class VegetarianFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentVegetarianBinding.inflate(inflater, container, false)
+        binding.rvVegetarian.apply {
+            setHasFixedSize(true)
+            layoutManager = GridLayoutManager(context, 2)
+            adapter = RecipeAdapter(DataRecipe.listVegetarian)
+        }
         return binding.root
 
     }

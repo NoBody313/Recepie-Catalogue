@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipe Catalogue</string>
+    <string name="txt_breakfast">Sarapan</string>
+    <string name="txt_vegetarian">Vegetarian</string>
+    <string name="txt_desert">Pencuci Mulut</string>
+    <string name="txt_Seafood">Makanan Laut</string>
+    <string name="content_image_banner_food">Image Banner Food</string>
+    <string name="txt_garlic_butter_shrimp">Garlic Butter Shrimp</string>
+
+    <string name="txt_1_2_k">1.2 K</string>
+    <string name="txt_cooked">Cooked</string>
+    <string name="txt_detail_recipe">Detail Recipe</string>
+    <string name="txt_calories">Calories</string>
+    <string name="txt_carbo">Carbo</string>
+    <string name="txt_recipe">Recipe</string>
+    <string name="txt_ingredients">Ingredients:</string>
+    <string name="txt_directions">Directions:</string>
+
+    <string name="content_image_for_recipes">content image for recipes</string>
+    <string name="breakfast">Breakfast</string>
+</resources>
