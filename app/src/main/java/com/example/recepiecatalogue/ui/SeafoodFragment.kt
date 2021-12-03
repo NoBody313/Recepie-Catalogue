@@ -16,8 +16,9 @@ import com.example.recepiecatalogue.databinding.FragmentSeafoodBinding
 class SeafoodFragment : Fragment() {
 
     private var _binding: FragmentSeafoodBinding? = null
-    private var listSeafood: ArrayList<Recipe> = arrayListOf()
     private val binding get() = _binding!!
+
+    private var listSeafood: ArrayList<Recipe> = arrayListOf()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -25,9 +26,17 @@ class SeafoodFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        _binding = FragmentSeafoodBinding.inflate(inflater, container, false)
+        _binding = FragmentSeafoodBinding.inflate(layoutInflater, container, false)
         initData()
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.rvSeafood.apply {
+            layoutManager = GridLayoutManager(activity, 2)
+            adapter = RecipeAdapter(listSeafood)
+        }
     }
 
     private fun initData() {
@@ -46,26 +55,19 @@ class SeafoodFragment : Fragment() {
 
             for (data in name.indices) {
                 val recipe = Recipe(
-                    name[data],
-                    category[data],
-                    description[data],
-                    ingredient[data],
-                    instruction[data],
-                    photo[data],
-                    price[data],
-                    calories[data],
-                    carbo[data],
-                    protein[data]
+                    name = name[data],
+                    category = category[data],
+                    description = description[data],
+                    ingredients = ingredient[data],
+                    instructions = instruction[data],
+                    photo = photo[data],
+                    price = price[data],
+                    calories = calories[data],
+                    carbo = carbo[data],
+                    protein = protein[data]
                 )
+                listSeafood.add(recipe)
             }
-        }
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        binding.rvSeafood.apply {
-            layoutManager = GridLayoutManager(activity, 2)
-            adapter = RecipeAdapter(listDessert)
         }
     }
 

@@ -29,7 +29,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/content_image_for_recipes"
-                    android:foreground="@drawable/shadow_transparant"
+                    android:foreground="@drawable/shadow_transparent"
                     android:scaleType="centerCrop" />
 
                 <TextView

@@ -7,11 +7,14 @@
         <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/drawable/shadow_transparant.xml" value="0.12962962962962962" />
         <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/layout/activity_detail.xml" value="0.209375" />
         <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/layout/fragment_breakfast.xml" value="0.33" />
+        <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/layout/fragment_breakfast.xml" value="0.18404907975460122" />
         <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/layout/fragment_desert.xml" value="0.10157041540020263" />
         <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/layout/fragment_seafood.xml" value="0.1" />
         <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/layout/fragment_vegetarian.xml" value="0.1" />
         <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/layout/row_item_food.xml" value="0.18" />
+        <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+        <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3728205128205128" />
+        <entry key="..\:/Android Dev/Projek Kotlin/Recepie-Catalogue/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3728205128205128" />
         <entry key="app/src/main/res/drawable/ic_breakfast.xml" value="0.3640625" />
         <entry key="app/src/main/res/drawable/shadow_transparant.xml" value="0.3640625" />
         <entry key="app/src/main/res/drawable/white_rounded.xml" value="0.3640625" />

@@ -17,6 +17,8 @@
 
     <string name="content_image_for_recipes">content image for recipes</string>
     <string name="breakfast">Breakfast</string>
+    <string name="number">1.2 K</string>
+    <string name="cooked">Cooked</string>
 
     <string-array name="name_seafood">
         <item>Crispy Potato Cakes with Smoked Salmon</item>

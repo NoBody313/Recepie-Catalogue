@@ -24,6 +24,7 @@ class BreakfastFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentBreakfastBinding.inflate(inflater, container, false)
+//        return binding.root
 
         binding.rvBreakfast.apply {
             setHasFixedSize(true)
